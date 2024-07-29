@@ -7,7 +7,7 @@ function play(userchoice) {
     
     let result = "";
     if (userchoice === computerChoice){
-        result = 'égalité!';
+        result = 'égalité parfaite !';
     } else if (
         (userchoice === 'pierre' && computerChoice === 'ciseaux') ||
         (userchoice === 'papier' && computerChoice === 'pierre') ||
